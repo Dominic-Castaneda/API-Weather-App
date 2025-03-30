@@ -66,3 +66,15 @@ We are using a **pull request review system**. Here's the process:
 3. **Commit and push** your work from GitHub Desktop.
 
 4. **Open a Pull Request** on GitHub.
+
+
+### 🔍 Dominic will review the code:
+- Only **Dominic** can approve and merge into `main`.
+- This ensures quality control and prevents bugs or unfinished code from breaking the app.
+
+### 🧠 Why this process?
+- Keeps our main app working at all times.
+- Helps us review and learn from each other’s code.
+- Makes sure we don't overwrite or conflict with each other’s work.
+
+---
