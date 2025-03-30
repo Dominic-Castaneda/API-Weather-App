@@ -1,4 +1,4 @@
-# Weather App Client (React Native + Expo)
+# Weather App (React Native + Expo)
 
 Welcome to the group weather app project! This repo contains the React Native front-end built with Expo.
 
