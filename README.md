@@ -65,10 +65,6 @@ SUPABASE_URL=your_supabase_url
 SUPABASE_KEY=your_supabase_anon_key
 ```
 
-You can use the included `.env.example` file as a reference.
-
-> **Note:** Do **not** commit `.env` to GitHub — this file contains sensitive information and is ignored via `.gitignore`.
-
 ---
 
 ### 5. Start the App
@@ -78,7 +74,8 @@ npx expo start
 ```
 
 - Press `w` to run on Web  
-- Scan the QR code using the **Expo Go app** on your phone to run on iOS/Android  
+- Scan the QR code using the **Expo Go app** on your phone to run on iOS
+- Android may not work
 
 ---
 
@@ -96,7 +93,7 @@ API_Weather_App/
 ├── lib/                     # Supabase + global state
 ├── components/              # Shared UI components
 ├── assets/                  # Icons, splash, fonts
-├── .env.example             # Reference for required keys
+├── .env                     # API keys
 ├── package.json             # Project metadata & dependencies
 └── babel.config.js          # Environment config
 ```
